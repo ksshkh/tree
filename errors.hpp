@@ -22,6 +22,6 @@ enum Errors {
     *code_error |= err;                                                                                                     \
 }
 
-void my_strerr(FILE* stream, int* code_error);
+void ErrorsPrint(FILE* stream, int* code_error);
 
 #endif // ERRORS_HPP

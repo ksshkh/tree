@@ -22,8 +22,6 @@ struct Tree {
     size_t tree_size = 0;
 };
 
-void TreeCtor(Tree* tree, int* code_error);
-
 Node* NodeCtor(TreeElem data, Node* left, Node* right, int* code_error);
 
 void DataInsert(Node** node, TreeElem data, int* code_error);

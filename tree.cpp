@@ -11,12 +11,6 @@ static const char* HTML_FILE_NAME  = "./debug/tree.html";
 
 static int GRAPH_NUM = 1;
 
-void TreeCtor(Tree* tree, int* code_error) {
-
-    MY_ASSERT(tree != NULL, PTR_ERROR);
-
-}
-
 Node* NodeCtor(TreeElem data, Node* left, Node* right, int* code_error) {
 
     Node* NewNode = (Node*)calloc(1, sizeof(Node));
